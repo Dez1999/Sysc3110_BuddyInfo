@@ -1,3 +1,10 @@
+/**
+ * Class BuddyInfo - An object containing information about each Buddy
+ *
+ * @author Desmond Blake
+ * @version Sept 25, 2020
+ */
+
 public class BuddyInfo {
 
     private String name;
