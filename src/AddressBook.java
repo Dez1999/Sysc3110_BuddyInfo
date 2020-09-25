@@ -7,26 +7,29 @@ public class AddressBook {
     public void main(String[]args) {
         address = new HashMap<>();
 
-        System.out.print("Address book");
-
+        //System.out.print("Address book");
+        BuddyInfo buddy1 = new BuddyInfo("Des", "Carleton", "229");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy("buddy1", buddy1);
+        addressBook.removeBuddy("buddy1");
     }
 
     /**
      * Method: addBuddy(). Adds a buddy into Address Book Map
-     * @param name The name of the Buddy (Key)
+     * @param buddy The name of the Buddy (Key)
      * @param info The info of the buddy (Value)
      */
-    private void addBuddy(String name, BuddyInfo info)
+    private void addBuddy(String buddy, BuddyInfo info)
     {
-        address.put(name, info);
+        address.put(buddy, info);
     }
 
     /**
      * Method: removeBuddy(). Removes a buddy from the Address Book Map
-     * @param name The name of the Buddy (Key)
+     * @param buddy The name of the Buddy (Key)
      */
-    private void removeBuddy(String name){
-        address.remove(name);
+    private void removeBuddy(String buddy){
+        address.remove(buddy);
     }
 
 
