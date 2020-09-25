@@ -1,5 +1,10 @@
 import java.util.*;
-
+/**
+ * Class AddressBook - an address book containining BuddyInfo objects
+ *
+ * @author Desmond Blake
+ * @version Sept 25, 2020
+ */
 public class AddressBook {
 
     private HashMap<String, BuddyInfo> address;
