@@ -1,6 +1,6 @@
 import java.util.*;
 /**
- * Class AddressBook - an address book containining BuddyInfo objects
+ * Class AddressBook - an address book containing BuddyInfo objects
  *
  * @author Desmond Blake
  * @version Sept 25, 2020
@@ -36,8 +36,6 @@ public class AddressBook {
     private void removeBuddy(String buddy){
         address.remove(buddy);
     }
-
-
 
 }
 
