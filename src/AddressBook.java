@@ -20,9 +20,9 @@ public class AddressBook {
         BuddyInfo buddy1 = new BuddyInfo("Des", "Carleton", "229");
         BuddyInfo buddy2 = new BuddyInfo("Damian", "Ottawa U", "613" );
         AddressBook addressBook = new AddressBook();
-        addressBook.addBuddy(buddy1);
-        addressBook.removeBuddy(0);
-        addressBook.addBuddy(buddy2);
+        addressBook.addBuddy(buddy1);       //Buddy1 added to Address Book
+        addressBook.removeBuddy(0);         //Buddy1 removed from Address Book
+        addressBook.addBuddy(buddy2);       //Buddy2 added to Address Book
     }
 
     /**
