@@ -23,6 +23,7 @@ public class AddressBook {
         addressBook.addBuddy(buddy1);       //Buddy1 added to Address Book
         addressBook.removeBuddy(0);         //Buddy1 removed from Address Book
         addressBook.addBuddy(buddy2);       //Buddy2 added to Address Book
+        addressBook.displayBuddyID(0);
     }
 
     /**
@@ -45,6 +46,17 @@ public class AddressBook {
             return myBuddyAddress.remove(index);
         }
         return null;
+    }
+
+    /**
+     * Method: Display Buddy ID: Displays BuddyInfo ID in text
+     * @param index The index of the buddy (Value)
+     */
+    private void displayBuddyID(int index)
+    {
+        if (index >= 0 && index < myBuddyAddress.size()) {
+            System.out.println(myBuddyAddress.get(index));
+        }
     }
 
 }
